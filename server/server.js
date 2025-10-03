@@ -19,7 +19,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow multiple origins
-const allowedOrigins = ['http://localhost:5173', 'https://grocstore-app.vercel.app']
+const allowedOrigins = ['http://localhost:5173', 'https://grocstore-app.vercel.app', "https://www.lovelyqueenmart.com"]
 
 app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
 
@@ -27,6 +27,7 @@ app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({origin: allowedOrigins, credentials: true}));
+
 
 
 app.get('/', (req, res) => res.send("API is Working"));
