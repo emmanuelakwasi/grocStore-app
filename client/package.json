@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "grocstore-client",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Frontend React application for GrocStore e-commerce platform",
   "type": "module",
   "scripts": {
     "dev": "vite",

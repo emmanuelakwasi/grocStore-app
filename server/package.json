@@ -1,16 +1,16 @@
 {
-  "name": "server",
+  "name": "grocstore-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API server for GrocStore e-commerce platform",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "keywords": [],
+  "keywords": ["ecommerce", "grocery", "express", "mongodb", "stripe", "api"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
