@@ -22,7 +22,7 @@ A full-stack grocery e-commerce platform that brings local sellers and customers
 - **Payment Security**: Stripe webhook signature verification ensures payment events are legitimate and prevents fraud
 - **Responsive UI**: Mobile-first design with Tailwind CSS works seamlessly on phones, tablets, and desktops
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19** - Modern UI library with hooks and context API
@@ -69,7 +69,7 @@ grocStore/
     └── configs/            # Database & service configurations
 ```
 
-## 🎯 Core Functionality
+## Core Functionality
 
 ### User Features
 - User registration and authentication
@@ -97,7 +97,7 @@ grocStore/
 - **Input Validation**: Server-side validation for all user inputs
 - **Role-Based Access**: Middleware protection for seller and user routes
 
-## 📊 Database Schema
+## Database Schema
 
 ### User Model
 - Authentication credentials
@@ -192,7 +192,7 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-## 🏗️ Architecture Decisions
+## Architecture Decisions
 
 ### Why This Stack?
 - **React + Vite**: Vite gives us 10x faster hot reload compared to Create React App, plus better production builds
@@ -216,7 +216,7 @@ Built by a team of 4 developers working together on:
 - **Git Workflow**: Feature branches kept our code organized and made code reviews straightforward
 - **Code Consistency**: Agreed on patterns early so the codebase stays maintainable as it grows
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time inventory updates using WebSockets
 - [ ] Advanced search with Elasticsearch integration
@@ -258,7 +258,7 @@ Built by a team of 4 developers working together on:
 - `POST /api/address/add` - Add delivery address
 - `GET /api/address/list` - Get user addresses
 
-## 🐛 Known Issues & Solutions
+## Known Issues & Solutions
 
 - **CORS Errors**: Ensure backend CORS configuration includes your frontend URL
 - **Image Upload Failures**: Verify Cloudinary credentials and file size limits
@@ -268,9 +268,9 @@ Built by a team of 4 developers working together on:
 
 This project is open source and available under the MIT License.
 
-## 👥 Contributors
+## Contributors
 
-Built with ❤️ by a team of 4 developers
+Built by a team of 4 developers
 
 ---
 
